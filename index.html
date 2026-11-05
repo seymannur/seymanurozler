@@ -3,42 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Şeyma Nur Özler'in kişisel sayfası</title>
+    <title>Şeyma Nur Özler'in Kişisel Sayfası</title>
 </head>
-<body>
+<!-- EKSİK 1: İlk koddaki arka plan görseli eklendi (Dosya adını kendi arka plan resmine göre değiştirebilirsin) -->
+<body style="background-image: url('images/apr.jpg');">
 
-    <img src="https://www.duzce.edu.tr/assets/theme/images/logo.png">
-    <br> <br>
+    <!-- EKSİK 2: İlk koddaki duyarlı (responsive) picture yapısı eklendi -->
+    <!-- Farklı ekran genişliklerine göre uygun görseli yükler -->
+    <picture>
+        <source media="(min-width: 850px)" srcset="images/merdy.jpg">
+        <source media="(min-width: 600px)" srcset="images/kedy.jpg">
+        <img src="images/su.jpg" alt="Duyarlı Tanıtım Görseli">
+    </picture>
+    <br><br>
+
+    <a href="https://www.duzce.edu.tr/" target="_blank">
+        <img src="https://www.duzce.edu.tr/assets/theme/images/logo.png" alt="Düzce Üniversitesi Logosu">
+    </a>
     
-    <a href="">Anasayfa</a><br>
+    <br><br>
+
+    <img src="images/du.jpg" alt="Fakülte Bölümleri" usemap="#fakulte">
+    <map name="fakulte">
+       <img src="uni.jpeg" alt="Fakülte Bölümleri" usemap="#fakulte" width="565" height="282">
+<map name="fakulte">
+    <area shape="rect" coords="0,0,283,141" href="https://stf.duzce.edu.tr/sayfa/6b23/gorsel-letisim-tasarimi" alt="Görsel İletişim Tasarımı">
+    <area shape="rect" coords="283,0,565,141" href="https://stf.duzce.edu.tr/sayfa/742f/mimarlik" alt="Mimarlık">
+    <area shape="rect" coords="0,141,283,282" href="https://stf.duzce.edu.tr/sayfa/75d1/radyo-televizyon-ve-sinema" alt="Radyo Televizyon ve Sinema">
+    <area shape="rect" coords="283,141,565,282" href="https://stf.duzce.edu.tr/sayfa/434d/sahne-sanatlari" alt="Sahne Sanatları">
+</map>
+    </map>
+
+    <br><br>
+
+    <a href="index.html">Anasayfa</a><br>
     <a href="sayfalar/hakkimizda.html">Hakkımızda</a><br>
-    <a href="sayfalar/sss.html">Sık sorulan Sorular</a><br>
+    <a href="sayfalar/sss.html">Sık Sorulan Sorular</a><br>
     <a href="sayfalar/iletisim.html">İletişim</a><br>
 
-<img src="images/benjamin-chambon-.jpg"
-alt="resim" width="400" height="400" >
+    <br>
 
-    <h1>H<sub>2</sub>0</h1>
-</H1>x<sup>2</sup>y<sup>3</sup></H1>
-    <!-- Bu satırlar yorum satırıdır.-->
-    <h1></h1>
-    <h1> <abbr title="Görsel İletişim Tasarımı">GİT</abbr> </abbr></h1>
-<p>
-   <mark> Düzce Üniversitesi</mark> Görsel İletişim Tasarımı Bölümü, Sanat Tasarım ve Mimarlık Fakültesi bünyesinde yer alan ve ilk olarak 2022-2023 akademik yılında öğrenci kabul etmeye başlayan 4 yıllık bir lisans programıdır. Eğitim dili Türkçe olan bölüm, öğrencilerini merkezi sınav sistemindeki SÖZEL (SÖZ) puan türü ile kabul etmektedir.
-</p>
-    <h2>Misyon</h2>
-<p>
-     <blockquote> Görsel iletişim tasarımının kavram, kuram ve tekniğini; tasarım kültüründen beslenerek yaratıcı düşüncenin bakış açısı ile becerilerini özgün bir şekilde ortaya koyabilecek, düşünsel, sanatsal ve teknik bilgiye sahip tasarımcılar yetiştirmektir.
-        </blockquote>
+    <img src="images/benjamin-chambon-.jpg" alt="Tanıtım Resmi" width="400" height="400">
+
+   
+    <p>Formül: H<sub>2</sub>O</p>
+    <p>Üslü İfade: x<sup>2</sup>y<sup>3</sup></p>
+
+    <h1><abbr title="Görsel İletişim Tasarımı">GİT</abbr> Bölümü</h1>
+
+    <p>
+        <mark>Düzce Üniversitesi</mark> Görsel İletişim Tasarımı Bölümü, Sanat Tasarım ve Mimarlık Fakültesi bünyesinde yer alan ve ilk olarak 2022-2023 akademik yılında öğrenci kabul etmeye başlayan 4 yıllık bir lisans programıdır. Eğitim dili Türkçe olan bölüm, öğrencilerini merkezi sınav sistemindeki SÖZEL (SÖZ) puan türü ile kabul etmektedir.
     </p>
-    <h3>Vizyon</h3>
-<p>
-    Akademik alanda ve görsel iletişim tasarımı sektöründe (yayınevleri, grafik-animasyon ve multimedya yapım şirketleri, reklam ve grafik tasarım ajansları, firmaların tasarım merkezleri,  vb. gibi) yer alacak sanatsal ve akademik düzeyde donanımlı tasarımcılar yetiştirmek; örnek, kalitede öncü bir kurum olarak tanınmak
-</p>
+    <h2>Misyon</h2>
+    <blockquote>
+        Görsel iletişim tasarımının kavram, kuram ve tekniğini; tasarım kültüründen beslenerek yaratıcı düşüncenin bakış açısı ile becerilerini özgün bir şekilde ortaya koyabilecek, düşünsel, sanatsal ve teknik bilgiye sahip tasarımcılar yetiştirmektir.
+    </blockquote>
+    <h2>Vizyon</h2>
+    <p>
+        Akademik alanda ve görsel iletişim tasarımı sektöründe (yayınevleri, grafik-animasyon ve multimedya yapım şirketleri, reklam ve grafik tasarım ajansları, firmaların tasarım merkezleri, vb. gibi) yer alacak sanatsal ve akademik düzeyde donanımlı tasarımcılar yetiştirmek; örnek, kalitede öncü bir kurum olarak tanınmak.
+    </p>
+    <p>
+        <a href="https://stf.duzce.edu.tr/sayfa/6b23/gorsel-letisim-tasarimi" target="_blank">Düzce Üniversitesi - Görsel İletişim Tasarımı Bölümü</a>
+    </p>
 
-<a href="https://stf.duzce.edu.tr/sayfa/6b23/gorsel-letisim-tasarimi" target="_blank">Düzce Üniversitesi Görsel İletişim Tasarımı Bölümü</a>
+    <h2>İletişim</h2>
+    <p><strong>Adres:</strong> Düzce Üniversitesi Sanat, Tasarım ve Mimarlık Fakültesi Üskübü Yerleşkesi Çiftepınarlar Mh. Türbe Sk. No:7/1 Konuralp/DÜZCE</p>
+    <p><strong>Telefon 1:</strong> 0 (380) 542 12 64</p>
+    <p><strong>Telefon 2:</strong> 0 (380) 542 12 97</p>
+    <p><strong>E-posta:</strong> stf@duzce.edu.tr</p>
 
-    
+    <a href="https://gemini.google.com/?hl=tr" target="_blank">
+        <img src="images/su.jpg" alt="su" width="500" height="400">
+    </a>
+
+    <!-- Başlık seviyelerini göstermek için yazdığın deneme başlıkları -->
     <h4>Görsel İletişim Tasarımı</h4>
     <h5>Görsel İletişim Tasarımı</h5>
     <h6>Görsel İletişim Tasarımı</h6>
